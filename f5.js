@@ -1,3 +1,7 @@
+/* Function to decode an f5 cookie.
+   Param: f5 - ex. 839518730.47873.0000
+   Output: ex. 10.10.10.50:443
+*/
 function f5Decode(f5)
 {
     var index = f5.indexOf(".");
